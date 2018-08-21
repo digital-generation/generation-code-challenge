@@ -1,0 +1,132 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:braces:20180219':
+    - react-scripts > jest > jest-cli > jest-haste-map > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.187Z'
+    - react-scripts > webpack-dev-server > chokidar > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-haste-map > sane > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-haste-map > sane > anymatch > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-matchers > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-node > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.188Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-jasmine2 > jest-snapshot > jest-util > jest-message-util > micromatch > braces:
+        reason: None given
+        expires: '2018-09-20T16:19:04.189Z'
+  'npm:chownr:20180731':
+    - chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > webpack-dev-server > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > sw-precache-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > babel-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > extract-text-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > webpack-manifest-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > file-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > html-webpack-plugin > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > url-loader > file-loader > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > webpack-dev-server > webpack-dev-middleware > webpack > watchpack > chokidar > fsevents > node-pre-gyp > tar > chownr:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+  'npm:content-type-parser:20170905':
+    - react-scripts > jest > jest-cli > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+    - react-scripts > jest > jest-cli > jest-runtime > jest-config > jest-environment-jsdom > jsdom > content-type-parser:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+  'npm:eslint:20180222':
+    - react-scripts > eslint:
+        reason: None given
+        expires: '2018-09-20T16:19:04.190Z'
+patch: {}
